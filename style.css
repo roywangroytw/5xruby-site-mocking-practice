@@ -1,0 +1,64 @@
+body {
+
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+/* Navbar CSS */
+
+header {
+
+    box-shadow: 0px 2px 20px rgba(202, 202, 202, 0.555);
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 95%;
+    height: 70px;
+}
+
+.navbar h2 {
+
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+.nav-logo {
+
+    width: 40px;
+
+}
+
+.nav-link {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    margin: 0px 8px;
+    line-height: 66px;
+    display: inline-block;
+    height: 66px;
+
+}
+
+.nav-link:hover {
+
+    color: #FF143E;
+    box-shadow: 0px 4px 0 #FF143E;
+
+}
