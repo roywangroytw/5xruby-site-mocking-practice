@@ -35,7 +35,8 @@ body {
 .usps-section,
 .promote,
 .teacher-section-content-box,
-.media-content-box {
+.media-content-box,
+.short-course-content-box {
 
     width: 90%;
     max-width: 1200px;
@@ -327,6 +328,7 @@ header {
 
     background-color: #F9FAFB;
     padding-top: 80px;
+    padding-bottom: 100px;
 
 }
 
@@ -368,5 +370,87 @@ header {
     color: #FF143E;
 
 }
+
+/* Short-course section */
+
+.short-course-section {
+
+    background-color: #2A303E;
+
+}
+
+.short-course-section .heading,
+.short-course-section .other-course-title,
+.short-course-section .other-course-desc,
+.short-course-section a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.short-course-section a:hover {
+
+    text-decoration: underline;
+}
+
+.short-course-section .sub-heading {
+
+    color: #A0A6B1;
+}
+
+
+.short-course-content-box {
+
+    display: flex;
+    height: 400px;
+    padding-top: 80px;
+    margin-top: 0px;
+    justify-content: center;
+
+}
+
+.short-course-section-item:nth-child(1),
+.short-course-section-item:nth-child(3) {
+
+    width: 45%;
+    margin: 20px;
+}
+
+.short-course-section-item:nth-child(2) {
+
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: flex-end;
+
+}
+
+.short-course-section-item i {
+
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color: #6C727F;
+
+}
+
+.short-course-section-item i:nth-child(1) {
+
+    color: #FF143E;
+
+}
+
+.short-course-section-item:nth-child(3) {
+
+    background-color: #FF143E;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
 
 
