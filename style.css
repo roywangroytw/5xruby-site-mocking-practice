@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     font-family: 'Noto Sans TC', sans-serif;
     background-color: FFFFFF;
+    color: #394150;
 
 }
 
@@ -19,7 +20,7 @@ body {
 .heading {
 
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 0px
 
 }
@@ -33,7 +34,7 @@ body {
 
 .usps-section,
 .promote,
-.teacher-section {
+.teacher-section-content-box {
 
     width: 90%;
     max-width: 1200px;
@@ -89,6 +90,7 @@ header {
     line-height: 66px;
     display: inline-block;
     height: 66px;
+    transition: all 0.2s ease;
 
 }
 
@@ -133,7 +135,7 @@ header {
 .usp-item {
 
     width: 260px;
-    margin: 20px 60px;
+    margin: 20px 50px;
 
 }
 
@@ -159,10 +161,139 @@ header {
 
 /* Teachers section */
 
+.teacher-section {
+
+    background-color: #F9FAFB;
+    margin-top: 100px;
+    padding-top: 80px;
+
+}
+
 .heading-box {
 
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 
 }
+
+.teacher-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teacher-card {
+
+    background-color: #FFFFFF;
+    width: 40%;
+    margin: 30px auto 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 29px 0px rgba(128, 128, 143, 0.2);
+}
+
+.teacher-info {
+
+    display: flex;
+
+}
+
+.teacher-info img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.teacher-details {
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.teacher-details .title {
+
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.teacher-details .name {
+
+    margin-top: 8px;
+
+}
+
+.teacher-social-link {
+
+    font-size: 1.3rem;
+    margin-right: 10px;
+    color: #A0A6B1;
+
+}
+
+.teacher-info-divider {
+
+    border: none;
+    border-bottom: 1px solid #E5E7EB;
+
+}
+
+.teacher-desc a {
+
+    color: #FF143E;
+    text-decoration: none;
+
+}
+
+.teacher-desc a:hover {
+
+    text-decoration: underline;
+}
+
+.othercourse-divier {
+
+    display: flex;
+
+}
+
+.othercourse-divier .othercourse-title {
+
+    width: 25%;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.othercourse-divier .teacher-info-divider {
+
+    width: 75%;
+    align-self: center;
+
+}
+
+.course-btn {
+
+    background-color: #FFFFFF;
+    height: 40px;
+    font-size: 1rem;
+    color: #FF143E;
+    border: 1px solid #FF143E;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 0.2s ease;
+
+}
+
+.course-btn:hover {
+
+    cursor: pointer;
+    background-color: #FF143E;
+    color: white;
+
+}
+
