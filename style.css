@@ -10,9 +10,33 @@ body {
 .redline {
 
     display: inline-block;
-    width: 60px;
+    width: 50px;
     border: none;
-    border-bottom: 2px solid #FF143E;
+    border-bottom: 2.5px solid #FF143E;
+
+}
+
+.heading {
+
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0px
+
+}
+
+.sub-heading {
+
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+.usps-section,
+.promote {
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto 0px auto;
 
 }
 
@@ -77,8 +101,6 @@ header {
 
 .promote {
 
-    width: 90%;
-    max-width: 1200px;
     margin: 100px auto 0px auto;
 
 }
@@ -89,3 +111,49 @@ header {
     border-radius: 10px;
 
 }
+
+/* USP section */
+
+.usps-section {
+
+    text-align: center;
+}
+
+.usp-box {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.usp-item {
+
+    width: 260px;
+    margin: 20px 60px;
+
+}
+
+.usp-img {
+
+    width: 100%;
+
+}
+
+.usp-title {
+
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.usp-text {
+
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+
+
