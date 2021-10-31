@@ -36,7 +36,8 @@ body {
 .promote,
 .teacher-section-content-box,
 .media-content-box,
-.short-course-content-box {
+.short-course-content-box,
+.recent-course-content-box {
 
     width: 90%;
     max-width: 1200px;
@@ -452,5 +453,123 @@ header {
 
 }
 
+/* Short-course section */
 
 
+.recent-course-section {
+
+    background-color: #2A303E;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}
+
+.recent-course-content-box {
+
+    margin-top: 0px;
+
+}
+
+.recent-course-title {
+
+    color: white;
+}
+
+.recent-course-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.recent-course-item {
+
+    width: 32%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.recent-course-item img {
+
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.recent-course-item p,
+.recent-course-item h3 {
+
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.recent-course-item p:nth-of-type(1) {
+
+    font-size: 0.8rem;
+    border: 1px solid #D3D6DB;
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+.divider {
+
+    border: none;
+    border-bottom: 1px solid #D3D6DB;
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.recent-course-item h3 {
+
+    width: 60%;
+    color: #A4AAB4;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.advanced-course,
+.entry-course {
+
+    width: 25%;
+    font-size: 0.8rem;
+    text-align: right;
+    
+}
+
+.advanced-course {
+
+    color: #F87373;
+}
+
+.entry-course {
+
+    color: #3ED59D;
+}
+
+.hover-box {
+
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.recent-course-item:hover {
+
+    box-shadow: 0px 10px 0px #FF143E;
+    transform:translateY(-10px);
+
+}
