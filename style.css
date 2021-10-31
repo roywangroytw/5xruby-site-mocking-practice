@@ -37,7 +37,8 @@ body {
 .teacher-section-content-box,
 .media-content-box,
 .short-course-content-box,
-.recent-course-content-box {
+.recent-course-content-box,
+.path-course-content-box {
 
     width: 90%;
     max-width: 1200px;
@@ -490,6 +491,7 @@ header {
     background-color: #fff;
     border-radius: 10px;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: all 0.2s ease;
 }
 
@@ -569,7 +571,94 @@ header {
 
 .recent-course-item:hover {
 
-    box-shadow: 0px 10px 0px #FF143E;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, 0px 10px 0px #FF143E;
     transform:translateY(-10px);
+
+}
+
+/* Path course section */
+
+.path-course-section {
+
+    background-color: #F9FAFB;
+    padding-bottom: 80px;
+}
+
+.path-course-content-box {
+
+    margin-top: 0px;
+    padding-top: 80px;
+
+}
+
+.path-course-box {
+
+    display: flex;
+    justify-content: center;
+}
+
+.path-course-item {
+
+    width: 46%;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 29px 0px rgba(128, 128, 143, 0.2);
+    margin: 20px 10px;
+    padding-bottom: 10px;
+    transition: all 0.2s ease;
+    position: relative;
+
+}
+
+.path-course-item img {
+
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.path-course-item h2,
+.path-course-item p,
+.path-course-item a {
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.path-course-item h2 {
+
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+.path-course-item a {
+
+    color: #FF143E;
+    text-decoration: none;
+
+}
+
+.path-course-item a:hover {
+
+    text-decoration: underline
+
+}
+
+.hover-box1 {
+
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.path-course-item:hover {
+
+    transform:translateY(-10px);
+    box-shadow: 0px 7px 29px 0px rgba(128, 128, 143, 0.2), 0px 10px 0px #FF143E;
 
 }
