@@ -32,11 +32,13 @@ body {
 }
 
 .usps-section,
-.promote {
+.promote,
+.teacher-section {
 
     width: 90%;
     max-width: 1200px;
     margin: 50px auto 0px auto;
+    position: relative;
 
 }
 
@@ -155,5 +157,12 @@ header {
 
 }
 
+/* Teachers section */
 
+.heading-box {
 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
