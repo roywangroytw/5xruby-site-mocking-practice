@@ -34,12 +34,36 @@ body {
 
 .usps-section,
 .promote,
-.teacher-section-content-box {
+.teacher-section-content-box,
+.media-content-box {
 
     width: 90%;
     max-width: 1200px;
     margin: 50px auto 0px auto;
     position: relative;
+
+}
+
+.section-cta {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #FF143E;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.section-cta:hover {
+
+    cursor: pointer;
+    background-color: #a80e2b;
 
 }
 
@@ -296,4 +320,47 @@ header {
     color: white;
 
 }
+
+/* Media section */
+
+.media-section {
+
+    background-color: #F9FAFB;
+    padding-top: 80px;
+
+}
+
+.media-content-box .heading-box {
+
+    text-align: center;
+
+}
+
+.media-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.media-item {
+
+    width: 41%;
+    margin: 10px 25px;
+
+}
+
+.media-item a {
+
+    text-decoration: none;
+    color: #394150;
+
+}
+
+.media-item a:hover {
+
+    color: #FF143E;
+
+}
+
 
