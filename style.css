@@ -40,7 +40,8 @@ body {
 .recent-course-content-box,
 .path-course-content-box,
 .social-box,
-.article-section {
+.article-section,
+.footer-box {
 
     width: 90%;
     max-width: 1200px;
@@ -752,6 +753,11 @@ header {
 
 /* Article section */
 
+.article-section {
+    padding-bottom: 80px;
+    margin-top: 80px;
+}
+
 .article-section .heading-box {
 
     text-align: center;
@@ -800,4 +806,92 @@ header {
     background: url('images/article3.jpeg');
     background-size: cover;
     background-position: center;
+}
+
+/* Footer section */
+
+.footer-section {
+    background-color: #29303E;
+    height: 600px;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 80px;
+    position: relative;
+}
+
+.footer-box {
+    display: flex;
+    margin: 80px auto 80px auto;
+    justify-content: space-between;
+}
+
+.footer-links-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+
+}
+
+.footer-link-item:nth-child(4) {
+
+    margin-right: auto;
+}
+
+.footer-item:nth-child(1) {
+
+    margin-right: 40px;
+
+}
+
+.footer-item a {
+
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.footer-item a:hover {
+    color: #FF143E;
+}
+
+.footer-link-item {
+
+    width: 200px;
+
+}
+
+.footer-social-box {
+
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.footer-social-item {
+    color: #6C727F;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-social-item:hover {
+    color: #FFFFFF;
+}
+
+.footer-note {
+
+    text-align: center;
+    height: 50px;
+    background-color: #171E2D;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #959BA6;
+
 }
