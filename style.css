@@ -777,6 +777,11 @@ header {
 
 }
 
+.article-item a {
+    text-decoration: none;
+    color: #394151;
+}
+
 .article-item img {
 
     width: 100%;
