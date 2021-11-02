@@ -8,6 +8,19 @@ body {
 
 }
 
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+strong::selection,
+a::selection {
+
+    background-color: #FF143E;
+    color: white;
+
+}
+
 .redline {
 
     display: inline-block;
@@ -25,12 +38,14 @@ body {
 
 }
 
+
 .sub-heading {
 
     font-size: 1.3rem;
     font-weight: 400;
 
 }
+
 
 .usps-section,
 .promote,
